@@ -5,9 +5,11 @@
 ```bash
 npm install
 ```
-2) Add a new environment file in the root of the backend project:
+2) Create a new PostgreSQL database. Then add an environment file in the root of the backend project:
 
 ```dotenv
+/*Insert your credentials  */
+
 POSTGRES_HOST=
 POSTGRES_PORT=
 POSTGRES_USER=
