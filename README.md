@@ -7,17 +7,25 @@ npm install
 ```
 2) Add a new environment file in the root of the backend project:
 
+```dotenv
+POSTGRES_HOST=
+POSTGRES_PORT=
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_DATABASE=
+```
+
 ## Usage
 
 Run development server
 
-Frontend)
+Frontend:
 
 ```bash
 npm run dev
 ```
 
-Backend)
+Backend:
 
 ```bash
 npm run start:dev
